@@ -1,6 +1,7 @@
 # GoogleChartPHP
+These are simple serializable PHP classes that can be used to create [GoogleChart](https://developers.google.com/chart/) Table data JSON.
 
-First, you should read the [Google Chart Guide](https://developers.google.com/chart/interactive/docs/php_example) to learn how to consume JSON data in JavaScript
+First, you should read the [Google Chart Guide](https://developers.google.com/chart/interactive/docs/php_example) to learn how to consume JSON data in JavaScript.
 
 Example PHP producing GoogleChart table data (JSON)
 	$chart = new GoogleChart();
@@ -36,5 +37,5 @@ Example PHP producing GoogleChart table data (JSON)
 	// Encode GoogleChart to JSON and echo the result
 	echo json_encode ( $chart );
   
-Example of ColumnChart created JavaScript using data sent from PHP
+Example of [ColumnChart](https://developers.google.com/chart/interactive/docs/gallery/columnchart) created JavaScript using data sent from PHP
 ![alt text](column_chart_example.JPG)
